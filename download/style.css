@@ -44,7 +44,7 @@ html {
   linear-gradient(
     rgba(0, 0, 0, 0.35), 
     rgba(0, 0, 0, 0.35)),
-  url(../images/background.jpg);
+  url(../assets/background.jpg);
 
 height: 100%;
 
@@ -72,7 +72,7 @@ a {
   padding-right: 65%;
   padding-bottom: 2%;
 
-  background-image: url(../images/apple-logo.png);
+  background-image: url(../assets/apple-logo.png);
   background-position: center;
   background-repeat: no-repeat;
 
@@ -91,7 +91,7 @@ a {
   padding-right: 58.5%;
   padding-bottom: 2%;
 
-  background-image: url(../images/windows-logo.png);
+  background-image: url(../assets/windows-logo.png);
   background-position: center;
   background-repeat: no-repeat;
 }
