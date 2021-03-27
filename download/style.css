@@ -184,6 +184,12 @@ h1 {
 h2 {
   font-size: 3vw;
   line-height: 1.2;
+  padding-top: 3%;
+}
+
+h3 {
+  font-size: 3vw;
+  line-height: 1.2;
 }
 
 .block {
