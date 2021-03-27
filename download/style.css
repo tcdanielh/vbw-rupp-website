@@ -120,7 +120,6 @@ hr.line {
   color: white;
   font-family: "Helvetica";
   text-align: left;
-  letter-spacing: 1.5px;
 }
 
 .two {
@@ -132,7 +131,6 @@ hr.line {
   font-family: "Helvetica";
   text-align: left;
   padding-top: 15%;
-  letter-spacing: 1.5px;
 }
 
 .three {
@@ -142,7 +140,6 @@ hr.line {
   color: white;
   font-family: "Helvetica";
   text-align: left;
-  letter-spacing: 1.5px;
   line-height: 1.2;
 }
 
@@ -153,7 +150,6 @@ hr.line {
   color: white;
   font-family: "Helvetica";
   text-align: left;
-  letter-spacing: 1.5px;
   line-height: 1.2;
   padding-bottom: 10%;
 }
@@ -166,7 +162,6 @@ hr.line {
   color: white;
   font-family: "Helvetica";
   text-align: left;
-  letter-spacing: 1.5px;
   line-height: 1.2;
 }
 
