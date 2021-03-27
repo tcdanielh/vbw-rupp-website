@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Virtual Wurster Rupp Exhibition</title>
 
-    <script type="text/javascript">
-        backgroundImg = new Image(3000, 1660);
-        backgroundImg.src = "assets/background.jpg";
+    <script>
+        $(document).ready(function () {
+            $('#loading').hide();
+            $('.divs_nav').css('display', 'block');
+        });
     </script>
 
     <!-- Favicon-->
@@ -18,13 +21,18 @@
 </head>
 
 <body>
-    <div class="d-flex align-items-center flex-column text-center">
-        <p class="heading">EXHIBITION:<br>BUILDING FOR A DECARCERATION NATION</p>
-        <a class="btn" href="./download/index.html">ENTER</a>
+    <div id="loading">Loading, please wait...</div>
+    
+    <div class='divs_nav'>
+        <div class="d-flex align-items-center flex-column text-center">
+            <p class="heading">EXHIBITION:<br>BUILDING FOR A DECARCERATION NATION</p>
+            <a class="btn" href="./download/index.html">ENTER</a>
+        </div>
     </div>
 
 </body>
 <script>
-    
+
 </script>
+
 </html>
