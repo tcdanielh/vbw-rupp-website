@@ -63,8 +63,8 @@ img {
   max-height: 81px;
   width: auto;
 
-  padding-top: 10%;
-  margin-left: 7%;
+  padding-top: 2%;
+  margin-left: 7.5%;
 }
 
 .btn1 {
@@ -75,13 +75,13 @@ img {
   border: 5px solid white;
   color: white;
 
-  padding-top: 7%;
+  padding-top: 6%;
   padding-left: 1%;
-  padding-right: 52.5%;
-  padding-bottom: 1.5%;
+  padding-right: 32.5%;
+  padding-bottom: 5%;
 
   background-image: url(../assets/apple-logo.png);
-  background-position: center;
+  background-position: 85% 50%;
   background-repeat: no-repeat;
 
 }
@@ -99,13 +99,13 @@ img {
   border: 5px solid white;
   color: white;
 
-  padding-top: 7%;
+  padding-top: 6%;
   padding-left: 1%;
-  padding-right: 52.5%;
-  padding-bottom: 1.5%;
+  padding-right: 32.5%;
+  padding-bottom: 5%;
 
   background-image: url(../assets/windows-logo.png);
-  background-position: center;
+  background-position: 85% 50%;
   background-repeat: no-repeat;
 }
 
@@ -170,14 +170,14 @@ hr.line {
   font-family: "Helvetica";
   text-align: left;
   line-height: 1.2;
-  padding-bottom: 14.5%;
+  padding-bottom: 16%;
 }
 
 
 .btn3 {
   font-family: "Helvetica";
   font-weight: Bold;
-  font-size: 0.75vw;
+  font-size: 1vw;
   color: white;
   font-family: "Helvetica";
   text-align: left;
