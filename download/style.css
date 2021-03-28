@@ -59,6 +59,14 @@ a {
   display: inline-block;
 }
 
+img {
+  max-height: 81px;
+  width: auto;
+
+  padding-top: 10%;
+  margin-left: 7%;
+}
+
 .btn1 {
   text-decoration: none;
   font-family: "Helvetica";
