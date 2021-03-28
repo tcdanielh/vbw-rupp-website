@@ -67,15 +67,20 @@ a {
   border: 5px solid white;
   color: white;
 
-  padding-top: 14%;
+  padding-top: 7%;
   padding-left: 1%;
-  padding-right: 55%;
-  padding-bottom: 2%;
+  padding-right: 52.5%;
+  padding-bottom: 1.5%;
 
   background-image: url(../assets/apple-logo.png);
   background-position: center;
   background-repeat: no-repeat;
 
+}
+
+.btn1:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .btn2 {
@@ -86,14 +91,19 @@ a {
   border: 5px solid white;
   color: white;
 
-  padding-top: 14%;
+  padding-top: 7%;
   padding-left: 1%;
-  padding-right: 48.7%;
-  padding-bottom: 2%;
+  padding-right: 52.5%;
+  padding-bottom: 1.5%;
 
   background-image: url(../assets/windows-logo.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.btn2:hover {
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -156,7 +166,7 @@ hr.line {
 }
 
 
-.five {
+.btn3 {
   font-family: "Helvetica";
   font-weight: Bold;
   font-size: 0.75vw;
@@ -164,6 +174,11 @@ hr.line {
   font-family: "Helvetica";
   text-align: left;
   line-height: 1.2;
+}
+
+.btn3:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .space {
