@@ -68,18 +68,42 @@ img.xrlab {
   padding-bottom: 15%;
 }
 
+.card {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: block;
+  overflow-y: hidden;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow-y: hidden;
+}
+.card:hover .img-top {
+  display: block;
+  overflow-y: hidden;
+}
+.card:hover .img-bot {
+  display: none;
+  overflow-y: hidden;
+}
+
 button {
   background-color: transparent;
-  margin-left: 7.5%;
   padding: 0;
   border: none;
   background: none;
-  cursor:pointer;
+  cursor: pointer;
+  margin-left: 7.5%;
 }
 
 button:focus {
   outline: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .btn1 {
@@ -189,10 +213,9 @@ hr.line {
   font-size: 1vw;
   color: white;
   text-align: left;
-  padding-top: 1%;
   margin-left: 8%;
   width: 90%;
-
+  padding-top: 1%;
 }
 
 .btn3 {
