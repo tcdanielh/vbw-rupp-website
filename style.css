@@ -92,17 +92,17 @@ button:hover {
 .accessibility {
   position: absolute;
   font-family: "Helvetica";
-  padding-top: 1%;
+  padding: 1%;
   top: 6%;
   right: 4%;
   font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 
 
   color: white;
   text-align: right;
   margin-left: 8%;
   width: 75%;
-  padding-top: 1%;
 }
 
 .btn {
