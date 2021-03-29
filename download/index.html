@@ -26,14 +26,40 @@
           
     </div>
 
-    <div class="left-half block">
+    <div class="block">
       <h1>EXHIBITION</h1>
       <p class="one">March 29 - May 15, 2021</p>
 
       <p class="two">On view on Virtual Bauer Wurster</p>
 
-      <img src="../assets/xrlab-logo.png" alt="XR Lab Logo" width="137" height="67.75">
-    </div><div class="right-half block">
+      <img class="xrlab" src="../assets/xrlab-logo.png" alt="XR Lab Logo" width="137" height="67.75">
+
+      <br>
+
+      <script>
+        var a;
+        function show_hide()
+        {
+          if (a==1)
+          {
+            document.getElementById("show_text").style.display="none";
+            return a=0;
+          }
+          else
+          {
+            document.getElementById("show_text").style.display="block";
+            return a=1;
+          }
+        }
+      </script>
+
+      <button onclick="show_hide()">
+        <img src="../assets/accessibility.png" alt="AccessibilityLogo" width="45" height="45">
+      </button>
+
+      <p class="accessibility" id="show_text" hidden>Our accessible exhibit launches on Monday, April 5th, 2021! Please return back to this site for a text and audio supported experience. Should you have any further questions or inquiries, we'd be happy to answer them. Please contact us at mhulsman@designingjustice.org.</p>
+
+    </div><div class="block">
       <h2>BUILDING FOR A</h2>
       <h3>DECARCERATION NATION</h3>
       <p class="three">Artifacts of Decarceration +</p>
