@@ -107,6 +107,11 @@ button {
   background: none;
   cursor: pointer;
   margin-left: 7.5%;
+  text-decoration: underline;
+
+  font-family: "Helvetica";
+  font-size: 1.5vw;
+  color: white;
 }
 
 button:focus {
@@ -220,7 +225,7 @@ hr.line {
   font-family: "Helvetica";
   font-size: 1vw;
   color: white;
-  text-align: left;
+  text-align: right;
   margin-left: 8%;
   width: 90%;
   padding-top: 1%;

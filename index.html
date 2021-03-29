@@ -18,6 +18,30 @@
 </head>
 
 <body>
+    <script>
+        var a;
+        function show_hide()
+        {
+          if (a==1)
+          {
+            document.getElementById("show_text").style.display="none";
+            return a=0;
+          }
+          else
+          {
+            document.getElementById("show_text").style.display="block";
+            return a=1;
+          }
+        }
+      </script>
+
+      <button onclick="show_hide()">
+        Accessibility Support
+      </button>
+
+      <p class="accessibility" id="show_text" hidden>Our accessible exhibit launches on Monday, April 5th, 2021! Please return back to this site for a text and audio supported experience. Should you have any further questions or inquiries, we'd be happy to answer them. Please contact us at mhulsman@designingjustice.org.</p>
+
+      
     <div class="d-flex align-items-center flex-column text-center">
         <p class="heading">EXHIBITION:<br>BUILDING FOR A DECARCERATION NATION</p>
         <a class="btn" href="./download/index.html">ENTER</a>

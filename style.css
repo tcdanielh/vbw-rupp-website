@@ -62,6 +62,48 @@ background-size: cover;
   position: fixed;
 }
 
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  text-decoration: underline;
+
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  padding-top: 1%;
+  top: 2%;
+  right: 4%;
+  font-size: 20px;
+}
+
+button:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #000000;
+}
+
+.accessibility {
+  position: absolute;
+  font-family: "Helvetica";
+  padding-top: 1%;
+  top: 6%;
+  right: 4%;
+  font-size: 20px;
+
+
+  color: white;
+  text-align: right;
+  margin-left: 8%;
+  width: 75%;
+  padding-top: 1%;
+}
 
 .btn {
   text-decoration: none;
