@@ -100,6 +100,22 @@ img.xrlab {
   overflow-y: hidden;
 }
 
+.box1 .accessibility {
+  position: absolute;
+  font-family: "Helvetica";
+  padding: 1%;
+  top: 48%;
+  right: 50%;
+  font-size: 1.25vw;
+  background-color: rgba(0, 0, 0, 0.75);
+
+
+  color: white;
+  text-align: left;
+  margin-left: 8%;
+  width: 30%;
+}
+
 button {
   background-color: transparent;
   padding: 0;
@@ -119,51 +135,117 @@ button:focus {
   cursor: pointer;
 }
 
-.btn1 {
-  text-decoration: none;
-  font-family: "Helvetica";
-  font-weight: Bold;
-  font-size: 1.5vw;
+.box1 {
   border: 5px solid white;
   color: white;
 
-  padding-top: 6%;
+  padding-top: 1%;
   padding-left: 1%;
-  padding-right: 32.5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
+  margin-right: 25%;
 
   background-image: url(../assets/apple-logo.png);
-  background-position: 85% 50%;
+  background-position: 95% 10%;
   background-repeat: no-repeat;
-
+  background-size: 7.5%;
 }
 
-.btn1:hover {
-  color: black;
-  text-decoration: none;
-}
-
-.btn2 {
+.text1 {
+  padding-top: 1%;
   text-decoration: none;
   font-family: "Helvetica";
   font-weight: Bold;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
+}
+
+.text2 {
+  padding-top: 2%;
+  margin-left: 15%;
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1.25vw;
+}
+
+.text3 {
+  padding-top: 1%;
+  margin-left: 15%;
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-size: 1vw;
+}
+
+.download-full {
+  color: white;
+  padding-top: 1%;
+  text-decoration: underline;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1.25vw;
+  display: inline;
+}
+.download-full:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.download-alt {
+  color: white;
+  padding-top: 1%;
+  padding-right: 1%;
+  text-decoration: underline;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1.25vw;
+  display: inline;
+}
+.download-alt:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.guide {
+  color: white;
+  padding-top: 1%;
+  padding-right: 1%;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1vw;
+}
+
+.guide-instructions {
+  color: white;
+  padding-top: 1%;
+  padding-right: 1%;
+  text-decoration: underline;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1vw;
+  display: inline;
+}
+.guide-instructions:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.box2 {
+
   border: 5px solid white;
   color: white;
 
-  padding-top: 6%;
+  padding-top: 1%;
   padding-left: 1%;
-  padding-right: 32.5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
+  margin-right: 25%;
 
   background-image: url(../assets/windows-logo.png);
-  background-position: 85% 50%;
+  background-position: 95% 10%;
   background-repeat: no-repeat;
-}
-
-.btn2:hover {
-  color: black;
-  text-decoration: none;
+  background-size: 7.5%;
 }
 
 
@@ -218,7 +300,17 @@ hr.line {
   color: white;
   text-align: left;
   line-height: 1.2;
-  padding-bottom: 16%;
+  padding-bottom: 14%;
+}
+
+.five {
+  font-family: "Helvetica";
+  font-weight: Bold;
+  font-size: 1.5vw;
+  color: white;
+  text-align: left;
+  line-height: 1.2;
+  padding-bottom: 1%;
 }
 
 .accessibility {

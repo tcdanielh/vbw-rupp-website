@@ -31,7 +31,7 @@
       <p class="one">March 29 - May 15, 2021</p>
 
       <p class="two">On view on Virtual Bauer Wurster</p>
-
+      
       <img class="xrlab" src="../assets/xrlab-logo.png" alt="XR Lab Logo" width="137" height="67.75">
 
       <br>
@@ -42,16 +42,55 @@
       <p class="three">Artifacts of Decarceration +</p>
       <p class="four">Restore Berkeley (The Peace Room)</p>
 
-      <a class="btn1" href="mac-download">Download the Rupp Exhibition<br>for Mac</a>
+      <p class="five">Download the Rupp Exhibition</p>
+      <div class="box1">
+        <p class="text1">For Mac</p>
+        <p class="text2">1 - <a class="download-full" href="mac-download-full">Full Version</a></p>
+        <p class="text3">Simple installation with no voice chat</p>
+        <p class="text2">2 - <a class="download-alt" href="mac-download-alt">Alternate Version</a></p>
+        <p class="text3">Installation with voice chat - See <a class="guide-instructions" onclick="show_hide()">installation guide</a>for details</p>
+
+
+        <script>
+          var a;
+          function show_hide()
+          {
+            if (a==1)
+            {
+              document.getElementById("show_text").style.display="none";
+              return a=0;
+            }
+            else
+            {
+              document.getElementById("show_text").style.display="block";
+              return a=1;
+            }
+          }
+        </script>
+
+
+        <p class="accessibility" id="show_text" hidden>Mac Full Installation Guide for Virtual Bauer Wurster
+          <br><br>
+          1. For Mac, download, unzip, double click the .app file. 
+          <br><br>
+          Wait for a while until a dialog box shows, saying the file can't be open.
+          Click on Cancel. 
+          After that, right click on the file, and choose Open. 
+          VBW should start in a few seconds, when the black screen disappears. 
+          <br><br>
+          2. Allow access to microphone and folders.
+          </p>
+      </div>
 
       <p class="space"></p>
 
-      <a class="btn2" href="windows-download">Download the Rupp Exhibition<br>for Windows</a>
-
-      <br>
-
-      <a class="btn3" href="windows-alternate-download">&#128712; Alternate Windows download for institution-owned computers</a>
-
+      <div class="box2">
+        <p class="text1">For Windows</p>
+        <p class="text2">1 - <a class="download-full" href="windows-download-full">Full Version</a></p>
+        <p class="text3">Download for personally-owned computers</p>
+        <p class="text2">2 - <a class="download-alt" href="windows-download-alt">Alternate Version</a></p>
+        <p class="text3">Download for institution-owned computers</p>
+      </div>
     </div>
 
     <div class="blur-box"></div>
