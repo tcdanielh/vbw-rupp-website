@@ -175,22 +175,7 @@ button:focus {
   font-size: 1vw;
 }
 
-.download-full {
-  color: white;
-  padding-top: 1%;
-  text-decoration: underline;
-  font-family: "Helvetica";
-  font-weight: Bold;
-  font-size: 1.25vw;
-  display: inline;
-}
-.download-full:hover {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.download-alt {
+.download-txt {
   color: white;
   padding-top: 1%;
   padding-right: 1%;
@@ -200,7 +185,7 @@ button:focus {
   font-size: 1.25vw;
   display: inline;
 }
-.download-alt:hover {
+.download-txt:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
